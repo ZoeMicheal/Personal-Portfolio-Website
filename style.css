@@ -257,6 +257,11 @@ nav ul li a:hover::after{
     font-size: 14px;
     transition: height 0.5s;
 }
+.project-buttons{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
 .layer h3{
     margin-bottom: 20px;
     font-weight: 500;
@@ -294,6 +299,11 @@ nav ul li a:hover::after{
     background: rgb(65, 30, 240);
     color: white;
 }
+
+#projects .project .layer .button a{
+    justify-content: left;
+}
+
 /*----------------------contact-section--------------------- */
 #contact .contact-left{
     flex-basis: 35%;

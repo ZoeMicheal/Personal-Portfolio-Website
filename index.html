@@ -23,8 +23,11 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Software Engineer and Web Developer</p>
-                <h1>Hi, I'm <span>Zoe Micheal</span><br>From New York</h1>
+                <p>Software Engineer|Full Stack Developer</p>
+                <h1>Hi, I'm <span>Zoe Micheal</span></h1>
+                    <p><br>Software Engineering student passionate <br>about building
+                    <span>modern web applications</span> and <br><span>AI-powered tools</span>.
+                    </p>
             </div>
         </div>
     </div>
@@ -39,24 +42,23 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>I am from New York City and I am a passionate web developer and software engineer.
-                        I have a strong growing backgroung in web development, software engineering, and front-end development.
-                        I am proficient in HTML, CSS, JavaScript, Java, and Github, and I have experience working with various web
-                        development frameworks and tools. I am dedicated to creating high-quality, user-friendly websites and applications
-                        that meet the needs of clients and users. I am always eager to learn new technologies and stay up-to-date with the latest trends
-                        in web development.
+                    <p>I am a computer science student and aspiring software engineer with a strong interest in web development and AI-powered applications.
+                        I enjoy building modern, user-friendly software that solves real problems.
+                        I have experience working with technologies such as React, TypeScript, Node.js, HTML, CSS, and JavaScript. 
+                        Recently, I developed an AI-powered resume analyzer that evaluates resumes against job descriptions and provides ATS-style feedback and improvement suggestions.
+                        I am always eager to learn new technologies and continuously improve my skills through hands-on projects and real-world development.
                     </p>
                     
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="openTab('skills')">Project Skills</p>
+                        <p class="tab-links active-link" onclick="openTab('skills')">Areas of Focus</p>
                         <p class="tab-links" onclick="openTab('experience')">Experience</p>
                         <p class="tab-links" onclick="openTab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
+                            <li><span>Web development</span><br>Front-end Development <br>Back-end Development</li>
                             <li><span>Website Design</span><br>Web/App Interface Design</li>
-                            <li><span>Web development</span><br>Web app Development</li>
-                            <li><span>Software Engineering</span><br>Software Development</li>
+                            <li><span>Software Engineering</span><br>Software Development <br>AI Integration</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
@@ -84,38 +86,54 @@
         <h1 class="sub-title">My Skills
             <div class="services-list">
                 <div>
-                    <i class="fa-brands fa-html5"></i>
-                    <h2>HTML</h2>
-                    <p>Creating structured and semantic web pages using HTML5 standards.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                
-                <div>
-                    <i class="fa-brands fa-css3"></i>
-                    <h2>CSS</h2>
-                    <p>Styling and formatting web pages with modern CSS techniques and frameworks.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <i class="fa-brands fa-java"></i>
-                    <h2>JAVA</h2>
-                    <p>Developing robust and scalable applications using Java programming language and related frameworks.</p>
-                    <a href="#">Learn More</a>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>REACT</h2>
+                    <p>Building component-based user interfaces for modern single-page web applications.</p>
+                    <a href="#">View Prjoect</a>
                 </div>
                 <div>
                 <i class="fa-brands fa-js"></i>
                     <h2>JavaScript</h2>
-                    <p>Creating interactive and dynamic web applications using JavaScript and related libraries.</p>
-                    <a href="#">Learn More</a>
+                    <p>Developing interactive and dynamic web functionality for modern web applications.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-typescript"></i>
+                    <h2>TYPESCRIPT</h2>
+                    <p>Writing type-safe JavaScript to build more reliable and scalable applications.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-node-js"></i>
+                    <h2>NODE.JS</h2>
+                    <p>Developing server-side functionality and backend logic for web applications.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                    <p>Building structured and semantic web pages using modern HTML5 standards.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3"></i>
+                    <h2>CSS</h2>
+                    <p>Creating responsive layouts and styling modern user interfaces with CSS and TailwindCSS.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h2>GIT & GITHUB</h2>
+                    <p>Version control, project management, and collaboration using Git and GitHub.</p>
+                    <a href="#">View Project</a>
                 </div>
                 <div>
                 <i class="fa-brands fa-python"></i>
                     <h2>Python</h2>
-                    <p>Developing efficient and scalable applications using Python programming language and related libraries.</p>
-                    <a href="#">Learn More</a>
+                    <p>Writing scripts and applications for automation, data processing, and problem solving.</p>
+                    <a href="#">View Project</a>
                 </div>
             </div>
-                
         </h1>
     </div>
 </div>
@@ -124,40 +142,55 @@
 <div id="projects">
     <div class="container">
         <h1 class ="sub-title">My Projects</h1>
+        <h4><br>A selection of projects demonstrating my experience in web development, AI-powered applications, and full-stack engineering...</h4>
         <div class="project-list">
             <div class="project">
-                <img src="images/Image3.png" alt="Project 3">
+                <img src="images/Image3.png" alt="AI Resume Analyzer">
                 <div class="layer">
                     <h3>AI Resume Analyzer</h3>
-                    <p>A web-based application built with React, Puter, TypeScript, and TailwindCSS.
-                        It operates offline and uses AI to analyze resumes. The tool accepts PDF resumes, converts them to images,
-                        and evaluates them against a provided job description. Features include a 0-100 scoring system, detailed written feedback 
-                        on resume-job alignment, improvement recommendations, and actionable suggestions for better job prospects. It is functoinal both on mobile devices and desktop.
+                    <p>AI-powered resume analyzer with PDF parsing, PDF-to-image processing,
+                        and ATS-style scoring built using React, TypeScript, Node.js, TailwindCSS, and Puter.js.
+                        Mobile and Desktop compatible.
                     </p>
-                    <a href="https://github.com/ZoeMicheal/AI-Resume-Analyzer" class="button"><i class="fa-brands fa-github"></i></a>
+                    <div class="project-buttons">
+                        <a href="https://github.com/ZoeMicheal/AI-Resume-Analyzer" class="button github-button">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://puter.com/app/zmo-ai-resume-analyzer" class="button link-button">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="project">
-                <img src="images/Image1.png" alt="Project 1">
+                <img src="images/Image1.png" alt="TikTok Phishing Demo">
                 <div class="layer">
                     <h3>Tiktok Phishing Demo</h3>
-                    <p>This project simulates a fake TikTok login page to capture user credentials
-                        (username, email, password) and metadata like IP address and user agent.
-                        It logs sanitized data to a CSV file for educational purposes, teaching users how 
-                        to recognize and avoid phishing scams, then redirects to a loading page.
+                    <p>Educational cybersecurity project built with HTML, CSS, and PHP
+                        that simulates a phishing attack to demonstrate how fake login
+                        pages capture credentials and metadata for security awareness.
                     </p>
                     <!-----edit this to add the specific repistory for the project-->
-                    <a href="https://github.com/ZoeMicheal" class="button"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/ZoeMicheal/TikTok-Phishing-Demo" class="button"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-
-
             <div class="project">
-                <img src="images/Image2.jpg" alt="Project 2">
+                <img src="images/Image2.jpg" alt="Content Performance Tracker">
                 <div class="layer">
                     <h3>Content Performance Tracker</h3>
                     <p>This is a project i am yet to do</p>
                     <!-----edit this to add the specific repistory for the project-->
+                    <a href="https://github.com/ZoeMicheal" class="button"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Image4.png" alt="Bookify">
+                <div class="layer">
+                    <h3>Bookify</h3>
+                    <p>Bookify is an AI powered application that takes the inputed PDF or Book by a user, stores it in the memory, and is able to
+                        answer questions about the contents of the PDF or Book. It is built using React, Node.js, TailwindCSS, Vapi, and Clerk.
+                    </p>
                     <a href="https://github.com/ZoeMicheal" class="button"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
